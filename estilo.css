@@ -1,0 +1,45 @@
+/* BODY: centrado, fondo estirado sin repetir y fijo (sin desplazamiento) */
+body {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  background-color: #f2c76e;
+  background-image: url("../images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/* H1: color de fondo, color de texto y borde lateral de otro color */
+h1 {
+  background-color: #b9c3dc;
+  color: white;
+  border-left: 15px solid #e8523f;
+  padding: 10px;
+  margin: 0 0 25px 0;
+}
+
+/* IMG: mismo tamaño, borde negro redondeado y sombra */
+img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border: 4px solid black;
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* UL: sin puntos */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0 0 0;
+}
+
+/* LI: con borde y todos en la misma línea */
+li {
+  display: inline;
+  border: 2px solid #2b2b6b;
+  padding: 3px 6px;
+}
